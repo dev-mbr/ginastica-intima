@@ -13,8 +13,8 @@ function SecondSection() {
           </h1>
         </div>
       </div>
-      <div className="w-10/12 mx-auto flex">
-        <div className="w-6/12 flex flex-col gap-16 -mt-7">
+      <div className="2xl:w-11/12 lg:w-full mx-auto flex justify-center">
+        <div className="w-6/12 flex flex-col gap-16 -mt-7 items-center">
           <CardRelatos
             widthImg={558}
             heightImg={210.57}
@@ -28,7 +28,7 @@ function SecondSection() {
             heightImg={185.81}
           />
         </div>
-        <div className="w-6/12 flex flex-col gap-16 mt-14">
+        <div className="w-6/12 flex flex-col gap-16 mt-14 items-center">
           <CardRelatos
             title="Orgasmos Intensos"
             img="relato-3.png"
