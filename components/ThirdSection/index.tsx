@@ -6,11 +6,11 @@ function ThirdSection() {
     <div className="bg-final mt-24">
       <div className="container mx-auto h-full">
         <div className="w-10/12 flex h-full">
-          <div className="w-8/12 relative">
+          <div className="w-8/12 relative flex justify-center">
             <Image
-              className="absolute -top-[246px]"
-              width={904.07}
-              height={1109.2}
+              className="absolute -top-[90px]"
+              width={504.07}
+              height={504.07}
               src="/catia-final.png"
               alt=""
             />
@@ -21,7 +21,7 @@ function ThirdSection() {
                 “Minha missão é despertar na mulher o que ela tem de melhor”
               </h1>
             </div>
-            <div className="w-[608px] mt-[22px]">
+            <div className="2xl:w-[608px] lg:w-[500px] mt-[22px]">
               <p className="text-[22px] leading-[28.93px] font-medium">
                 Cátia Damasceno é fisioterapeuta, especializada em
                 uroginecologia e iniciou seu trabalho ensinando exercícios de
@@ -32,7 +32,7 @@ function ThirdSection() {
                 mulheres em todo o Brasil.
               </p>
             </div>
-            <div className="w-[608px] mt-[28px]">
+            <div className="2xl:w-[608px] lg:w-[500px] mt-[28px]">
               <p className="text-[22px] leading-[28.93px] font-medium">
                 Cátia ajuda as mulheres a se sentirem mais seguras, confiantes e
                 bem-resolvidas nas suas relações amorosas e íntimas, com

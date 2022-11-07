@@ -29,3 +29,9 @@ body {
   background-image: url("/bg-final.png");
   background-size: cover;
 }
+.bg-footer {
+  background-image: url("/bg-footer.png");
+  height: 173px;
+  margin-top: -50px;
+  z-index: 200;
+}
