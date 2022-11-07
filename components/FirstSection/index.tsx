@@ -5,10 +5,13 @@ export default function FirstSection() {
     <div className="w-full">
       <div className="bg-home flex items-end">
         <div className="container mx-auto">
-          <div className="2xl:w-11/12 lg:w-full  ml-auto flex">
-            <div className="w-6/12 flex items-center">
+          <div className="2xl:w-11/12 lg:w-full w-11/12 lg:ml-auto mx-auto flex">
+            <div className="lg:w-6/12 w-full flex items-center">
               <div>
-                <div className="w-[622px]">
+                <div className="flex lg:hidden">
+                  <Image src="/logo.svg" alt="catia" width="207" height="82" />
+                </div>
+                <div className="lg:w-[622px] w-full">
                   <h1 className="text-[39.27px]  leading-[47.87px] font-light">
                     Descubra como se tornar{" "}
                     <span className="font-bold">
@@ -44,14 +47,14 @@ export default function FirstSection() {
                     Clique no botão abaixo para começar os treinos
                   </p>
                   <a href="">
-                    <button className="w-[491px] h-[96px] bg-[#03C322] mt-1 rounded-[20px] text-[26.98px] font-bold">
+                    <button className="lg:w-[491px] w-full h-[96px] bg-[#03C322] mt-1 rounded-[20px] text-[26.98px] font-bold">
                       Quero assistir o vídeo
                     </button>
                   </a>
                 </div>
               </div>
             </div>
-            <div className="w-6/12 flex items-start">
+            <div className="w-6/12 lg:flex hidden items-start">
               <div>
                 <Image
                   src={"/catia-home.png"}
