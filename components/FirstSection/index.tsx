@@ -5,7 +5,7 @@ export default function FirstSection() {
     <div className="w-full">
       <div className="bg-home flex items-end">
         <div className="container mx-auto">
-          <div className="2xl:w-11/12 lg:w-full ml-auto flex">
+          <div className="2xl:w-11/12 lg:w-full  ml-auto flex">
             <div className="w-6/12 flex items-center">
               <div>
                 <div className="w-[622px]">
