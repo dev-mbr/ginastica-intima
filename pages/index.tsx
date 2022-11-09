@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <div>
       <FirstSection />
-      {/* <SecondSection />
+      <SecondSection />
       <ThirdSection />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

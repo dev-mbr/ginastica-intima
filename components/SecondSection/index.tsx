@@ -5,16 +5,29 @@ import CardRelatos from "../CardRelatos";
 function SecondSection() {
   return (
     <div className="container mx-auto mt-14">
-      <div className="flex flex-col justify-center items-center">
-        <Image src="/icon-aspas.svg" alt="aspas" width={"60"} height={"89"} />
-        <div className="w-[518px] mt-5">
-          <h1 className="text-[#EC715F] text-[39px] leading-[48.56px] font-bwbeto text-center">
+      <div className="flex flex-col justify-center items-center lg:w-full w-11/12 mx-auto">
+        <Image
+          className="lg:flex hidden"
+          src="/icon-aspas.svg"
+          alt="aspas"
+          width={"60"}
+          height={"89"}
+        />
+        <Image
+          className="lg:hidden flex"
+          src="/icon-aspas.svg"
+          alt="aspas"
+          width={39.5}
+          height={58.59}
+        />
+        <div className="lg:w-[518px] mt-5 lg:mb-0 mb-5">
+          <h1 className="text-[#EC715F] lg:text-[39px] text-[28px] lg:leading-[48.56px] leading-[124.5%] font-bwbeto text-center">
             Relatos de mulheres que praticam Ginástica íntima
           </h1>
         </div>
       </div>
-      <div className="2xl:w-11/12 lg:w-full mx-auto flex justify-center">
-        <div className="w-6/12 flex flex-col gap-16 -mt-7 items-center">
+      <div className="2xl:w-11/12 lg:w-full w-full mx-auto lg:flex justify-center">
+        <div className="lg:w-6/12 w-11/12 mx-auto flex flex-col gap-16 lg:-mt-7 items-center">
           <CardRelatos
             widthImg={558}
             heightImg={210.57}
@@ -28,7 +41,7 @@ function SecondSection() {
             heightImg={185.81}
           />
         </div>
-        <div className="w-6/12 flex flex-col gap-16 mt-14 items-center">
+        <div className="lg:w-6/12 w-11/12 flex flex-col gap-16 mt-14 items-center">
           <CardRelatos
             title="Orgasmos Intensos"
             img="relato-3.png"

@@ -12,13 +12,12 @@ interface Props {
 function CardRelatos({ img, title, widthImg, heightImg }: Props) {
   return (
     <div>
-      <div className="w-[558px]">
-        <div className="bg-[#EC715F] w-[280px] mx-auto rounded-[7px]">
-          <p className="text-center py-3 px-5 text-[20px] font-bold leading-6">
+      <div className="lg:w-[558px]">
+        <div className="bg-[#EC715F] lg:w-[280px] w-[192.59px] mx-auto rounded-[7px]">
+          <p className="text-center lg:py-3 py-2 px-5 lg:text-[20px] text-[13.7566px] font-bold lg:leading-6 leading-[17px]">
             {title}
           </p>
         </div>
-        {/* <img src={`/${img}`} className="shadow-lg rounded mt-5" alt="" /> */}
 
         <AppImage
           src={`/${img}`}
@@ -26,7 +25,7 @@ function CardRelatos({ img, title, widthImg, heightImg }: Props) {
           dimensions={{
             default: [widthImg, heightImg],
             proportionalHeight: true,
-            sm: 383.81,
+            sm: 340,
           }}
         />
       </div>

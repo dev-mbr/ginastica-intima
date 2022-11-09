@@ -3,18 +3,18 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="relative ">
+    <div className="relative">
       <div className="bg-footer">
         <div className="container mx-auto">
-          <div className="2xl:w-10/12 lg:w-full flex justify-between items-center mx-auto">
-            <div className="w-[444px] mt-16">
-              <p>
+          <div className="2xl:w-10/12 lg:w-full flex lg:flex-row flex-col lg:justify-between justify-start items-center mx-auto">
+            <div className="lg:w-[444px] w-[208px] mt-16">
+              <p className="lg:text-[16px] text-[10px] text-center">
                 suporte@mulheresbemresolvidas.com.br CNPJ:
                 23.705.563.0001/80SHTN Bloco D RUV, SHCS CLS 216 - Asa Sul,
                 Brasília
               </p>
             </div>
-            <div className="mt-16">
+            <div className="mt-16 lg:flex hidden">
               <Image
                 src={"/logo.svg"}
                 alt="logo"
@@ -22,8 +22,11 @@ function Footer() {
                 height={63.4}
               />
             </div>
-            <div className="w-[330px] mt-16">
-              <p>
+            <div className="lg:hidden flex mt-7">
+              <Image src={"/logo.svg"} alt="logo" width={123.57} height={49} />
+            </div>
+            <div className="lg:w-[330px] w-[172px] lg:mt-16 mt-7 lg:pb-0 pb-5">
+              <p className="lg:text-[16px] text-[10px] lg:text-left text-center">
                 Política de privacidade | Termos de uso © 2022 Todos os direitos
                 reservados
               </p>
