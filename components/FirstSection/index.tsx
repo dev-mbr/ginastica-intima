@@ -9,7 +9,7 @@ export default function FirstSection() {
             <div className="lg:w-6/12 w-full flex items-center">
               <div>
                 <div className="flex lg:hidden justify-center">
-                  <Image src="/logo.svg" alt="catia" width="138" height="55" />
+                  <Image src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/logo.svg" alt="catia" width="138" height="55" />
                 </div>
                 <div className="lg:w-[622px] w-full lg:mt-0 mt-7">
                   <h1 className="lg:text-[39.27px] text-[20px] lg:leading-[47.87px] leading-[24.38px] font-light lg:text-start text-center">
@@ -28,14 +28,14 @@ export default function FirstSection() {
                   <div className="flex items-center lg:justify-start justify-center lg:gap-3 gap-1">
                     <Image
                       className="lg:block hidden"
-                      src="/circle.svg"
+                      src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/circle.svg"
                       alt=""
                       width={"5"}
                       height={"5"}
                     />
                     <Image
                       className="lg:hidden block"
-                      src="/circle-mob.svg"
+                      src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/circle-mob.svg"
                       alt=""
                       width={"11"}
                       height={"11"}
@@ -45,14 +45,14 @@ export default function FirstSection() {
                   <div className="flex items-center lg:justify-start justify-center lg:gap-3 gap-1">
                     <Image
                       className="lg:block hidden"
-                      src="/circle.svg"
+                      src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/circle.svg"
                       alt=""
                       width={"5"}
                       height={"5"}
                     />
                     <Image
                       className="lg:hidden block"
-                      src="/circle-mob.svg"
+                      src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/circle-mob.svg"
                       alt=""
                       width={"11"}
                       height={"11"}
@@ -62,14 +62,14 @@ export default function FirstSection() {
                   <div className="flex items-center lg:justify-start justify-center lg:gap-3 gap-1">
                     <Image
                       className="lg:block hidden"
-                      src="/circle.svg"
+                      src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/circle.svg"
                       alt=""
                       width={"5"}
                       height={"5"}
                     />
                     <Image
                       className="lg:hidden block"
-                      src="/circle-mob.svg"
+                      src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/circle-mob.svg"
                       alt=""
                       width={"11"}
                       height={"11"}
@@ -79,14 +79,14 @@ export default function FirstSection() {
                   <div className="flex items-center lg:justify-start justify-center lg:gap-3 gap-1">
                     <Image
                       className="lg:block hidden"
-                      src="/circle.svg"
+                      src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/circle.svg"
                       alt=""
                       width={"5"}
                       height={"5"}
                     />
                     <Image
                       className="lg:hidden block"
-                      src="/circle-mob.svg"
+                      src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/circle-mob.svg"
                       alt=""
                       width={"11"}
                       height={"11"}
@@ -109,7 +109,7 @@ export default function FirstSection() {
             <div className="w-6/12 lg:flex hidden items-start">
               <div>
                 <Image
-                  src={"/catia-home.png"}
+                  src={"https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/catia-home.png"}
                   alt="catia"
                   width="470"
                   height="766"
@@ -117,7 +117,7 @@ export default function FirstSection() {
               </div>
 
               <div className="mt-[98px] -ml-5">
-                <Image src="/logo.svg" alt="catia" width="207" height="82" />
+                <Image src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/logo.svg" alt="catia" width="207" height="82" />
               </div>
             </div>
           </div>

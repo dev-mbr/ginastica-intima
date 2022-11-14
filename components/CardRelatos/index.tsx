@@ -20,7 +20,7 @@ function CardRelatos({ img, title, widthImg, heightImg }: Props) {
         </div>
 
         <AppImage
-          src={`/${img}`}
+          src={`https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/${img}`}
           className="shadow-lg rounded mt-5"
           dimensions={{
             default: [widthImg, heightImg],

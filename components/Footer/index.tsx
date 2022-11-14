@@ -16,14 +16,14 @@ function Footer() {
             </div>
             <div className="mt-16 lg:flex hidden">
               <Image
-                src={"/logo.svg"}
+                src={"https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/logo.svg"}
                 alt="logo"
                 width={159.88}
                 height={63.4}
               />
             </div>
             <div className="lg:hidden flex mt-7">
-              <Image src={"/logo.svg"} alt="logo" width={123.57} height={49} />
+              <Image src={"https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/logo.svg"} alt="logo" width={123.57} height={49} />
             </div>
             <div className="lg:w-[330px] w-[172px] lg:mt-16 mt-7 lg:pb-0 pb-5">
               <p className="lg:text-[16px] text-[10px] lg:text-left text-center">

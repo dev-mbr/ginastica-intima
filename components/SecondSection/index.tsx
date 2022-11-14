@@ -8,14 +8,14 @@ function SecondSection() {
       <div className="flex flex-col justify-center items-center lg:w-full w-11/12 mx-auto">
         <Image
           className="lg:flex hidden"
-          src="/icon-aspas.svg"
+          src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/icon-aspas.svg"
           alt="aspas"
           width={"60"}
           height={"89"}
         />
         <Image
           className="lg:hidden flex"
-          src="/icon-aspas.svg"
+          src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/icon-aspas.svg"
           alt="aspas"
           width={39.5}
           height={58.59}

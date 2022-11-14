@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "BwBeto-Bold";
-  src: url("/fonts/BwBeto-Bold.woff");
+  src: url("https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/fonts/BwBeto-Bold.woff");
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 .bg-home {
   width: 100%;
   height: 786px;
-  background-image: url("/bg-home.png");
+  background-image: url("https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/bg-home.png");
   background-size: cover;
 }
 
@@ -26,11 +26,11 @@ body {
 .bg-final {
   width: 100%;
   height: 801px;
-  background-image: url("/bg-final.png");
+  background-image: url("https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/bg-final.png");
   background-size: cover;
 }
 .bg-footer {
-  background-image: url("/bg-footer.png");
+  background-image: url("https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/bg-footer.png");
   height: 173px;
   margin-top: -50px;
   z-index: 200;
@@ -42,7 +42,7 @@ body {
   .bg-home {
     width: 100%;
     height: 657px;
-    background-image: url("/bg-home-mob.png");
+    background-image: url("https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/bg-home-mob.png");
     background-size: cover;
   }
   .bg-final {
@@ -50,7 +50,7 @@ body {
     height: 100%;
   }
   .bg-footer {
-    background-image: url("/bg-footer.png");
+    background-image: url("https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/bg-footer.png");
 
     background-position: top;
     height: 100%;

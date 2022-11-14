@@ -11,7 +11,7 @@ function ThirdSection() {
               className="absolute -top-[90px]"
               width={504.07}
               height={504.07}
-              src="/catia-final.png"
+              src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/catia-final.png"
               alt=""
             />
           </div>
@@ -48,7 +48,7 @@ function ThirdSection() {
               <Image
                 width={469.65}
                 height={576.22}
-                src="/catia-final.png"
+                src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/catia-final.png"
                 alt=""
               />
             </div>
