@@ -98,7 +98,7 @@ export default function FirstSection() {
                   <p className="lg:text-[20.17px] text-[14px] lg:text-start text-center">
                     Clique no botão abaixo para começar os treinos
                   </p>
-                  <a href="">
+                  <a href="https://pay.hotmart.com/L2637108L?src=mateuzera&off=b0b10p71&checkoutMode=10&split=12&hideBillet=0&hideTransf=1">
                     <button className="lg:w-[491px] w-[295px] lg:h-[96px] h-[57.68px] bg-[#03C322] lg:mt-1 mt-2 rounded-[20px] lg:text-[26.98px] font-bold">
                       Quero assistir o vídeo
                     </button>
