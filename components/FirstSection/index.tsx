@@ -1,6 +1,9 @@
 import Image from "next/image";
+import { useState } from "react";
+import Modal from "../Modal";
 
 export default function FirstSection() {
+  const [openModal, setOpenModal] = useState(false);
   return (
     <div className="w-full">
       <div className="bg-home flex lg:items-end lg:pt-0 pt-16">
@@ -9,7 +12,12 @@ export default function FirstSection() {
             <div className="lg:w-6/12 w-full flex items-center">
               <div>
                 <div className="flex lg:hidden justify-center">
-                  <Image src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/logo.svg" alt="catia" width="138" height="55" />
+                  <Image
+                    src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/logo.svg"
+                    alt="catia"
+                    width="138"
+                    height="55"
+                  />
                 </div>
                 <div className="lg:w-[622px] w-full lg:mt-0 mt-7">
                   <h1 className="lg:text-[39.27px] text-[20px] lg:leading-[47.87px] leading-[24.38px] font-light lg:text-start text-center">
@@ -74,7 +82,7 @@ export default function FirstSection() {
                       width={"11"}
                       height={"11"}
                     />
-                    <p> Aumentar sua libido/lubrificação</p>
+                    <p> Aumentar o seu desejo e lubrificação</p>
                   </div>
                   <div className="flex items-center lg:justify-start justify-center lg:gap-3 gap-1">
                     <Image
@@ -91,25 +99,28 @@ export default function FirstSection() {
                       width={"11"}
                       height={"11"}
                     />
-                    <p>Facilitar o orgasmo</p>
+                    <p>Facilitar que você “chegue lá” em suas relações</p>
                   </div>
                 </div>
                 <div className="mt-[40px] lg:block flex flex-col items-center">
                   <p className="lg:text-[20.17px] text-[14px] lg:text-start text-center">
                     Clique no botão abaixo para começar os treinos
                   </p>
-                  <a href="https://pay.hotmart.com/L2637108L?off=b0b10p71&checkoutMode=10&split=12&hideBillet=1&hideTransf=1">
-                    <button className="lg:w-[491px] w-[295px] lg:h-[96px] h-[57.68px] bg-[#03C322] lg:mt-1 mt-2 rounded-[20px] lg:text-[26.98px] font-bold">
-                      Quero assistir o vídeo
-                    </button>
-                  </a>
+                  <button
+                    onClick={() => setOpenModal(true)}
+                    className="lg:w-[491px] w-[295px] lg:h-[96px] h-[57.68px] bg-[#03C322] lg:mt-4 mt-2 rounded-[20px] lg:text-[26.98px] font-bold hover:scale-105 hover:bg-[#1bc738] duration-200 "
+                  >
+                    Quero assistir o vídeo
+                  </button>
                 </div>
               </div>
             </div>
             <div className="w-6/12 lg:flex hidden items-start">
               <div>
                 <Image
-                  src={"https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/catia-home.png"}
+                  src={
+                    "https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/catia-home.png"
+                  }
                   alt="catia"
                   width="470"
                   height="766"
@@ -117,12 +128,18 @@ export default function FirstSection() {
               </div>
 
               <div className="mt-[98px] -ml-5">
-                <Image src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/logo.svg" alt="catia" width="207" height="82" />
+                <Image
+                  src="https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-b/logo.svg"
+                  alt="catia"
+                  width="207"
+                  height="82"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
+      <Modal modalOpen={openModal} setModalOpen={setOpenModal} />
     </div>
   );
 }
