@@ -4,7 +4,7 @@ import CardRelatos from "../CardRelatos";
 
 function SecondSection() {
   return (
-    <div className="container mx-auto mt-14">
+    <div className="container mx-auto mt-14 Z-10">
       <div className="flex flex-col justify-center items-center lg:w-full w-11/12 mx-auto">
         <Image
           className="lg:flex hidden"

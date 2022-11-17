@@ -4,6 +4,15 @@ import Modal from "../Modal";
 
 export default function FirstSection() {
   const [openModal, setOpenModal] = useState(false);
+  function toggleModal() {
+    if (openModal) {
+      setOpenModal(false);
+      document.body.style.overflow = "auto";
+    } else {
+      setOpenModal(true);
+      document.body.style.overflow = "hidden";
+    }
+  }
   return (
     <div className="w-full">
       <div className="bg-home flex lg:items-end lg:pt-0 pt-16">
@@ -107,7 +116,7 @@ export default function FirstSection() {
                     Clique no botão abaixo para começar os treinos
                   </p>
                   <button
-                    onClick={() => setOpenModal(true)}
+                    onClick={toggleModal}
                     className="lg:w-[491px] w-[295px] lg:h-[96px] h-[57.68px] bg-[#03C322] lg:mt-4 mt-2 rounded-[20px] lg:text-[26.98px] font-bold hover:scale-105 hover:bg-[#1bc738] duration-200 "
                   >
                     Quero assistir o vídeo
@@ -139,7 +148,7 @@ export default function FirstSection() {
           </div>
         </div>
       </div>
-      <Modal modalOpen={openModal} setModalOpen={setOpenModal} />
+      <Modal modalOpen={openModal} toggleModal={toggleModal} />
     </div>
   );
 }

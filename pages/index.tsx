@@ -1,7 +1,7 @@
 import Image from "next/image";
 import FirstSection from "../components/FirstSection";
 import Footer from "../components/Footer";
-import Modal from "../components/Modal";
+// import Modal from "../components/Modal";
 import SecondSection from "../components/SecondSection";
 import ThirdSection from "../components/ThirdSection";
 
