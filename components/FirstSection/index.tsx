@@ -32,7 +32,7 @@ export default function FirstSection() {
                   <h1 className="lg:text-[39.27px] text-[20px] lg:leading-[47.87px] leading-[24.38px] font-light lg:text-start text-center">
                     Descubra como se tornar{" "}
                     <span className="font-bold">
-                      mais confiante, solta e ter relações muito mais prazerosas
+                      mais confiante, solta, e ter relações muito mais intensas.
                     </span>
                   </h1>
                 </div>
@@ -74,7 +74,7 @@ export default function FirstSection() {
                       width={"11"}
                       height={"11"}
                     />
-                    <p> Prevenir a flacidez vaginal</p>
+                    <p> Prevenir a flacidez na região íntima</p>
                   </div>
                   <div className="flex items-center lg:justify-start justify-center lg:gap-3 gap-1">
                     <Image
@@ -91,7 +91,7 @@ export default function FirstSection() {
                       width={"11"}
                       height={"11"}
                     />
-                    <p> Aumentar o seu desejo e lubrificação</p>
+                    <p> Aumentar o seu desejo e prevenir o ressecamento</p>
                   </div>
                   <div className="flex items-center lg:justify-start justify-center lg:gap-3 gap-1">
                     <Image

@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: "/pp-new/ginastica-intima-pompoarismo-b/",
-  basePath: "/pp-new/ginastica-intima-pompoarismo-b",
+  // assetPrefix: "/pp-new/ginastica-intima-pompoarismo-b/",
+  // basePath: "/pp-new/ginastica-intima-pompoarismo-b",
 };
 
 module.exports = nextConfig;
